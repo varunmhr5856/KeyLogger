@@ -1,10 +1,8 @@
 # xss-keylogger
-A simple keystroke logger that listens and sends all keystrokes for a user on a Cross-site scripting (XSS) vulnerable 
-page to a remote dashboard page via [websockets][1].
+A simple keystroke logger that listens and sends all keystrokes for a user on a Cross-site scripting (XSS)
 
 
-## Demo
-![](https://cloud.githubusercontent.com/assets/315585/4782509/1aafaf46-5cf8-11e4-87c6-a698c7c47deb.gif)
+
 
 
 ## Introduction
@@ -55,16 +53,3 @@ From the spy dashboard, you can type and send a JavaScript snippet to run remote
 client. Some tame code snippets that you can try:
 
 ```
-// Show a popup remotely
-alert("You've been Sn00ped!");
-
-// Change background of client page to pink
-document.body.style.background = 'pink';
-```
-
-## Embedding Client Side script
-A blog post write-up detailing how the keylogger can be embedded in a live XSS vulnerable site is coming soon.
-
-[1]: http://dev.w3.org/html5/websockets
-[2]: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/eval
-[3]: http://brew.sh
