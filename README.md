@@ -51,5 +51,3 @@ To demonstrate this utility locally, point your browser to the following two URL
 
 From the spy dashboard, you can type and send a JavaScript snippet to run remotely in the context of the exploited
 client. Some tame code snippets that you can try:
-
-```
